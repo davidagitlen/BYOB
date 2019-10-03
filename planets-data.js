@@ -1,4 +1,4 @@
-let planets = [{
+const planets = [{
   name: 'Chandrila',
   day_length: '20',
   year_length: '368',
@@ -364,3 +364,5 @@ let planets = [{
   year_length: '360',
   population: '22000000000'
 }];
+
+module.exports = { planets };

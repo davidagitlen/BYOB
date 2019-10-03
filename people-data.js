@@ -1,4 +1,4 @@
-let people = [{
+const people = [{
   name: 'Jocasta Nu',
   height: '167',
   mass: 'unknown',
@@ -607,3 +607,5 @@ let people = [{
   birth_year: '46BBY',
   homeworld: 'Naboo'
 }];
+
+module.exports = { people };
