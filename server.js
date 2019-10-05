@@ -12,7 +12,7 @@ app.listen(app.get('port'), () => {
 });
 
 app.get('/', (request, response) => {
-  response.send('Here we go!');
+  response.send('Welcome to BYOB/SWAPI-tables! Please visit an appropriate path to see information displayed in the browser, or make a fetch call to a documented endpoint of your choosing.');
 });
 
 app.get('/api/v1/planets', (request, response) => {
