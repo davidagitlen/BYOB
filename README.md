@@ -4,6 +4,8 @@ This project creates a simple back end server with Express and Knex, allowing a 
 
 The data consists of information on planets and people from the Star Wars universe, pulled from the Star Wars API (SWAPI). Each planet has many native inhabitants, and each person has one homeworld. 
 
+The sprint board was created in GitHub Projects, and can be found above or at this (link)[https://github.com/davidagitlen/BYOB/projects/1].
+
 ## Project Setup
 
 The project is deployed to heroku, with a root url of https://dg-byob.herokuapp.com/. Paths for specific information, and any necessary information to pass along with the requests, are detailed below.
